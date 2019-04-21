@@ -1,0 +1,115 @@
+
+#page{
+	width:960px;
+	height:800px;
+	margin:0 auto;
+	background-color:khaki;
+	
+	
+}
+header, footer{
+	height:100px;
+	background-color:pink;		
+
+}
+#contenu{
+	display:table;
+	height:600px;
+	
+	
+	
+}
+
+#colonne{
+	display:table-cell;
+	width:200px;
+	
+	
+}
+#content{
+	display:table-cell;
+	background-color:orange;
+		width:100%;
+
+	
+	
+}
+
+/*****************************************************************************************
+*										STYLES MENU										 *
+*****************************************************************************************/
+nav, #menu .niveau1, #menu .niveau2, #menu ul, #menu li {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+#menu {
+background: transparent;
+font: 60% verdana, arial, sans-serif;
+width: 163px;
+margin: 10px 0px 0px 0px;
+}
+#menu .niveau1 {
+cursor: pointer;
+margin:4px 10px 4px 10px;
+padding:2px 0px 2px 4px;
+height: auto;
+line-height: 12px;
+text-align: left;
+font-weight: bold;
+border:2px;
+border-style:solid;
+border-top-color: #F7F7F7;
+border-left-color: #F7F7F7;
+border-bottom-color: #646464;
+border-right-color: #646464;
+background: #E2DCC4;
+color:#660000;
+font-size:10px;
+}
+#menu .niveau2 { 
+border: 1px solid gray; 
+}
+#menu li {
+text-align: left;
+background-color: #FFFFFF;
+}
+#menu li a, #menu .niveau1 a {
+color: #000;
+text-decoration: none;
+display: block;
+border: 0 none;
+height: 100%;
+padding-left:25px;
+font-size:10px;
+}
+#menu li a:hover, #menu .niveau1 a:hover {
+background: #eee;
+}
+#menu li img {
+margin: 0px 3px 0px 0px;
+border: 0 none;
+}
+#menu .niveau1 img {
+margin: 0px 3px 0px 0px;
+height:14px;
+width:14px;
+vertical-align:middle;
+}
+
+
+/*****************************************************************************************
+*										STYLES DRAPEAU										 *
+*****************************************************************************************/
+.drapeau {
+	font-size:10px;	
+	margin:10px 10px 20px 11px;
+}
+.drapeau img {
+	height:15px;
+	margin:0px 1px 0px 0px;
+	border: 0 none;
+}
+.drapeau a {
+	text-decoration:none;
+}

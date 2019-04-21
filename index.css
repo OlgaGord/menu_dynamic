@@ -1,0 +1,77 @@
+/*****************************************************************************************
+*									STYLES GLOBALS										 *
+*****************************************************************************************/
+body { 
+	margin: 0px auto 30px auto;
+	text-align:center;
+	width:864px;
+}
+
+
+
+/*****************************************************************************************
+*								STYLES STRUCTURE DE LA PAGE								 *
+*****************************************************************************************/
+.structure { 
+	text-align:left;
+	border-collapse:collapse;
+}
+.structure th, .structure td { 
+	padding:0px;
+}
+#espace_logo {
+	vertical-align: top;
+	width:864px; 
+    height:150px;
+	font-family:verdana;
+	font-size:25px;
+	background:#4b82cc;
+ 	color:white;
+	text-align:center;
+}
+#espace_menu {
+	vertical-align:top;
+	background: #4b82cc;
+	width:163px;
+}
+#espace_menu h1 {
+	font-size:25px;
+ 	color:white;
+	text-align:center;
+	font-family:verdana;
+}
+#espace_contenu {
+	vertical-align:top;
+	width:538px;
+	background:#E2DCC4;
+	font-size:25px;
+ 	color:white;
+	text-align:center;
+	font-family:verdana;
+	height:700px;
+}
+#espace_event {
+	vertical-align:top;
+	background:#4b82cc;
+	width:163px;
+}
+#espace_event h1 {
+	font-size:25px;
+ 	color:white;
+	text-align:center;
+	font-family:verdana;
+}
+#espace_pied {
+	height:10px;
+	background: #4b82cc;
+}
+
+
+
+/*****************************************************************************************
+*									STYLES PARTICULIERS									 *
+*****************************************************************************************/
+.centrer {
+	text-align:center;
+	font-weight:bold;
+}
